@@ -1,0 +1,25 @@
+{
+  "name": "beyond_es6",
+  "version": "1.0.0",
+  "description": "Some features from EcmaScript 7 and beyond",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "keywords": [
+    "es",
+    "es6",
+    "es7",
+    "es8",
+    "es9",
+    "ecmascript",
+    "javascript",
+    "js"
+  ],
+  "author": "@raveneyex",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "reveal": "0.0.4"
+  }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Beyond EcmaScript6</title>
+    <meta name="description" content="A short presentations of EcmaScript features beyond ES6">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="@raveneyex">
+
+    <link rel="stylesheet" href="node_modules/reveal/index.css">
+    <link rel="stylesheet" href="node_modules/reveal/theme/night.css">
+    <style>
+      .reveal ol {
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Beyond ES6</h1>
+          <h2>Selected finished proposals from TC39</h2>
+          <h3 style="margin-top: 15%">@raveneyex</h3>
+        </section>
+
+        <section class="intro">
+          <h2>Content</h2>
+          <ol>
+            <li>String goodies</li>
+            <li>Array goodies</li>
+            <li>Object goodies</li>
+            <li>Asynchronous goodies</li>
+            <li>Misc goodies</li>
+          </ol>
+        </section>
+
+        <!-- String goodies -->
+        <section>
+          <section>
+            <h1>String goodies</h1>
+            <ol>
+              <li>String.prototype.trimStart</li>
+              <li>String.prototype.trimEnd</li>
+              <li>String.prototype.padStart</li>
+              <li>String.prototype.padEnd</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>String.prototype.trimStart</h2>
+            <img src="assets/string_1.png">
+          </section>
+
+          <section>
+              <h2>String.prototype.trimEnd</h2>
+              <img src="assets/string_2.png">
+          </section>
+
+          <section>
+              <h2>String.prototype.padStart</h2>
+              <img src="assets/string_3.png">
+          </section>
+
+          <section>
+              <h2>String.prototype.padEnd</h2>
+              <img src="assets/string_4.png">
+          </section>
+        </section>
+
+        <!-- Array goodies -->
+        <section>
+          <section>
+            <h1>Array goodies</h1>
+            <ol>
+              <li>Array.prototype.includes</li>
+              <li>Array.prototype.flat</li>
+              <li>Array.prototype.flatMap</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>Array.prototype.includes</h2>
+            <img src="assets/arr_1.png">
+          </section>
+
+          <section>
+            <h2>Array.prototype.flat</h2>
+            <img src="assets/arr_2.png">
+          </section>
+
+          <section>
+            <h2>Array.prototype.flatMap</h2>
+            <img src="assets/arr_3.png">
+          </section>
+        </section>
+
+        <!-- Object goodies -->
+        <section>
+          <section>
+            <h1>Object goodies</h1>
+            <ol>
+              <li>Object rest operator</li>
+              <li>Object spread operator</li>
+              <li>Object.values</li>
+              <li>Object.entries</li>
+              <li>Object.fromEntries</li>
+              <li>Object.getOwnPropertyDescriptors</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>Object rest operator</h2>
+            <img src="assets/obj_1.png">
+          </section>
+
+          <section>
+            <h2>Object spread operator</h2>
+            <img src="assets/obj_3.png">
+          </section>
+
+          <section>
+            <h2>Object.values</h2>
+            <img src="assets/obj_4.png">
+          </section>
+
+          <section>
+            <h2>Object.entries</h2>
+            <img src="assets/obj_5.png">
+          </section>
+
+          <section>
+            <h2>Object.fromEntries</h2>
+            <img src="assets/obj_6.png">
+          </section>
+
+          <section>
+            <h2>Object.getOwnPropertyDescriptors</h2>
+            <img style="height:600px;" src="assets/obj_7.png">
+          </section>
+        </section>
+
+        <!-- Asynchronous goodies -->
+        <section>
+          <section>
+            <h1>Asynchronous goodies</h1>
+            <ol>
+              <li>Async / Await</li>
+              <li>Asynchronous iteration</li>
+              <li>Promise.prototype.finally</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>Async / Await</h2>
+            <img style="height:600px;" src="assets/async_1.png">
+          </section>
+
+          <section>
+            <h2>Asynchronous Iteration</h2>
+            <img style="height:600px;" src="assets/async_2.png">
+          </section>
+
+          <section>
+            <h2>Promise.prototype.finally</h2>
+            <img style="height:600px;" src="assets/async_3.png">
+          </section>
+        </section>
+
+        <!-- Misc goodies -->
+        <section>
+          <section>
+            <h1>Misc goodies</h1>
+            <ol>
+              <li>Exponentiation Operator</li>
+              <li>Optional catch binding</li>
+              <li>Trailing commas</li>
+              <li>Function.prototype.toString</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>Exponentiation Operator</h2>
+            <img src="assets/misc_1.png">
+          </section>
+
+          <section>
+            <h2>Optional catch binding</h2>
+            <img style="height:600px;" src="assets/misc_2.png">
+          </section>
+
+          <section>
+            <h2>Trailing commas</h2>
+            <img src="assets/misc_3.png">
+          </section>
+        </section>
+      </div>
+    </div>
+    
+    <script src="node_modules/reveal/index.js"></script>
+    <script type="text/javascript">
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        hash: true,
+        transition: 'slide',
+        width: "100%",
+        height: "100%",
+        minScale: 1,
+	      maxScale: 1
+      });
+    </script>
+  </body>
+</html>

@@ -7,6 +7,9 @@ This are [finished proposals](https://github.com/tc39/proposals/blob/master/fini
 TC39 is the body that standardizes the JS language.
 Finished proposals are proposals that have been approved by the body and are now considered part of the language (even if they're not published yet)
 
+## Repo
+This project can be found at https://github.com/raveneyex/beyondes6
+
 ## Snippets
 Runnable snippets can be found at https://codepen.io/collection/DwqaRQ/
 
